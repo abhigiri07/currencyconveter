@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('money.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .converter {  
+    text-align: center;
+    background-color: #000000;
+    padding: 60px;
+    border-radius: 8px;
+   
+  }
+  .converter h1{
+    font-size: 3em;
+    margin-top: -30px;
+    color: white;    
+  }
+  
+  .input-container {
+    margin: 10px 0;
+    font-size: 17px;
+  }
+  #firstCurrency{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 4px;
+  }
+
+  #secondCurrency{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 4px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width:1000px) {
+    .converter{
+      width: 70vw;
+      
+    }
+
+    *{
+      margin: 15px;
+      padding: 5px;
+      
+    }
+  }

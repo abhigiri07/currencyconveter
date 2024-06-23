@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpo
+  rt" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <div class="converter">
+    <h1>€urrenc¥ €onverter</h1>
+    <div class="input-container">
+      <input type="number" id="amount" placeholder="Enter amount">
+      <select id="firstCurrency">
+        <ul>
+        <option value="INR">INR</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option> 
+        <option value="KWD">KWD</option>
+        <option value="CHF">CHF</option>
+        <option value="AUD">AUD</option>
+        <option value="CNY">CNY</option>
+        </ul>
+      </select>
+    </div>
+    <div class="input-container">
+      <input type="number" id="convertedAmount" placeholder="Converted amount" readonly>
+      <select id="secondCurrency">
+        <option value="INR">INR</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option> 
+        <option value="KWD">KWD</option>
+        <option value="CHF">CHF</option>
+        <option value="AUD">AUD</option>
+        <option value="CNY">CNY</option>
+      </select>
+    </div>
+    <button onclick="convertCurrency()">Convert</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
